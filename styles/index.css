@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 12%);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: hsl(0, 0%, 8%);
+}
+.main {
+    width: 400px;
+    height: 650px;
+    border-radius: 15px;
+    text-align: center;
+}
+.image img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.nom h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+.nom address {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+.nom p {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+.lien {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.lien button {
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 10px;
+}
